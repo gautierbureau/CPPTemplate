@@ -1,4 +1,4 @@
-add_library(library SHARED Library.cpp)
+add_library(library SHARED Library.cpp Foo.cpp)
 
 target_include_directories(library
   INTERFACE

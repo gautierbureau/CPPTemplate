@@ -3,10 +3,15 @@
 //
 
 #include <gtest/gtest.h>
+
 #include "Library.h"
 
-// Demonstrate some basic assertions.
-TEST(LibraryTest, hello) {
+TEST(TestLibrary, hello) {
+  Library lib;
+  ASSERT_EQ(lib.hello(), "hello");
+}
+
+TEST(TestLibrary, hello2) {
   Library lib;
   ASSERT_EQ(lib.hello(), "hello");
 }

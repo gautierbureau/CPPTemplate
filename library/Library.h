@@ -7,7 +7,7 @@
 
 #include <string>
 
-class Library {
+class Library final {
  public:
   Library() = default;
 
