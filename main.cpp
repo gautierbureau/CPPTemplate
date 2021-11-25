@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Library.h"
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+  Library library;
+  std::cout << library.hello() << std::endl;
   return 0;
 }

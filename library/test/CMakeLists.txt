@@ -9,4 +9,4 @@ add_test(NAME TestLibrary
 # Using gtest_discover_tests forces me to add
 # LD_LIBRARY_PATH=/home/bureaugau/Projects/dynamo/dynawo/install-clion/3rdParty/debug/googletest/lib
 # to cmake config and to runtime config
-#gtest_discover_tests(TestLibrary)
+# gtest_discover_tests(TestLibrary)
